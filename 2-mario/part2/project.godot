@@ -20,8 +20,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Your First Platformer (2): Level Design"
-run/main_scene="res://src/Levels/Level01.tscn"
+config/name="Your First Platformer (1): Creating the Player and Enemy"
+run/main_scene="res://src/Levels/LevelTemplate.tscn"
 config/icon="res://assets/icon.png"
 
 [display]
@@ -67,7 +67,7 @@ pause={
 2d_physics/layer_1="player"
 2d_physics/layer_2="enemies"
 2d_physics/layer_3="environment"
-2d_physics/layer_4="coins"
+2d_physics/layer_5="bumper"
 
 [rendering]
 
